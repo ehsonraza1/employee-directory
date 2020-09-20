@@ -1,5 +1,7 @@
 import React from "react";
 import Result from "./components/Result.js";
+import EmployeeCard from "./components/EmployeeCard.js";
+import API from "./utils/API";
 import "./App.css";
 
 class App extends React.Component {
@@ -17,8 +19,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        {[1, 2, 3, 4]}
-        <Result people={this.state.people} />
+        {/* Racing Issue - only render the result component till the data is received from the API */}
+        {this.state.people.length > 0 && <Result people={this.state.people} />}
       </div>
     );
   }
