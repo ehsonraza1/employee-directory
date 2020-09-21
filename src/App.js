@@ -19,6 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        {<h1> Employee Directory</h1>}
         {/* Racing Issue - only render the result component till the data is received from the API */}
         {this.state.people.length > 0 && <Result people={this.state.people} />}
       </div>
