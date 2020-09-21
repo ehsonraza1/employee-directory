@@ -31,7 +31,6 @@ function Result(props) {
   };
   return (
     <div className="Result">
-      Result
       <br />
       <button onClick={sortName}>Sort by Last Name</button>
       <br />
@@ -42,13 +41,13 @@ function Result(props) {
       />{" "}
       <button onClick={filterName}>Search</button>
       <tr>
-        <th scope="row">
+        <th scope="col">
           <p>Porfile Picture</p>
         </th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Email</th>
-        <th>Phone</th>
+        <th scope="col">First Name </th>
+        <th scope="col">Last Name </th>
+        <th scope="col">Email </th>
+        <th scope="col">Phone</th>
       </tr>
       {people.map(function (person) {
         return <EmployeeCard {...person} />;

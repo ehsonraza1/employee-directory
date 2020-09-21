@@ -9,10 +9,10 @@ function EmployeeCard(props) {
       <th scope="row">
         <img alt={props.firstName} src={props.picture.large} />
       </th>
-      <td>{props.name.first}</td>
-      <td>{props.name.last}</td>
-      <td>{props.email}</td>
-      <td>{props.phone}</td>
+      <td scope="row">{props.name.first}</td>
+      <td scope="row">{props.name.last}</td>
+      <td scope="row">{props.email}</td>
+      <td scope="row">{props.phone}</td>
     </tr>
   );
 }
