@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const PORT = process.env.PORT || 8080;
-// const routes = require("./client/public/routes");
+// hello const routes = require("./client/public/routes");
 const app = express();
 
 // Define middleware here
