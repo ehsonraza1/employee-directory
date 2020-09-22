@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 // hello const routes = require("./client/public/routes");
 const app = express();
 
@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Define API routes here
-app.use(routes);
+// app.use(routes);
 // Send every other request to the React app
 // Define any API routes before this runs
 
