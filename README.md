@@ -1,4 +1,4 @@
-# Google Books
+# Employee Directory
 
 [Live Link](https://employee-directory-eraza.herokuapp.com/)
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-The user will be able to dynamically search Books, which will display a short description about the book and the author. Users will then have the option to save these books and view them later at their leisure. This App is created by utilizing React.js
+For this app the manager will be able to dynamically search and sort Employees in his company directory. The app is built using React and utilized React components.
 
 ## Table of Contents
 
